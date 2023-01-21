@@ -1,12 +1,12 @@
- # <img width="100" height="100" src="dataset-cover.png">  Heart Disease Prediction 
-This project will focus on predicting heart disease.      
+ # <img width="100" height="100" src="dataset-cover.png">  Heart Disease  
+This project will focus on heart disease.      
 
 ## Team members
 | Team members   | Role |
 | ----------- | ----------- |
-| Razan Alyahya | |
-| Faris Alahmadi | |
-| Raghad Alsalamah | |
+| Razan Alyahya |Clean and preprocess for dataset, EDA, Ploting 5 chart and  write readme markdown file. |
+| Faris Alahmadi | Data frame profiling, Ploting styles, Cottelation matrix and ploting 5 charts.|
+| Raghad Alsalamah | Ploting 4 charts and write readme markdown file. |
 
 
 ## What is heart disease?
@@ -17,6 +17,7 @@ Heart disease is one of the **biggest causes of morbidity and mortality** among 
 According to a news article, heart disease proves to be the leading cause of death for both women and men. [The article states the following:](https://midlandtexas.gov/621/Cardiovascular-Diseases#:~:text=Coronary%20heart%20disease%20(CHD)%20is,already%20had%20a%20heart%20attack.)
 - Heart disease is the leading cause of death for both men and women. More than half of the deaths due to heart disease in 2009 were in men.
 - Coronary Heart Disease(CHD) is the most common type of heart disease, killing over 370,000 people annually.
+
 
 This makes heart disease a major concern to be dealt with. For that, We have to know the factors that can make us more likely to develop heart disease.
 
@@ -49,17 +50,18 @@ This dataset contains patient data concerning heart disease diagnosis that was c
 | Thallium | 3 = normal; 6 = fixed defect; 7 = reversable defect|
 | Heart_disease | output class [No heart Disease,Heart Disease] |
 
-## Final 
+## Final eight insights
 There are many different factors that can make you more likely to develop heart disease. 
-| Image   | Description |
+|    | Factors |
 | ----------- | ----------- |
-|  |  Some factors may affect heart disease risk in men more than women.|
-|  |  The risk of heart disease goes up as you get older.|
-|  |  |
-|  |  |
-|  |  |
-|  |  |
-|  |  |
-|  |  |
+| 1|  The risk of heart disease increases with age.|
+| 2|  The heart beat rate decrease as the age increase.|
+| 3|  Depression may affect heart disease risk in men and women.|
+| 4|  Blood pressure increases with age, so it may increase the risk of heart disease. |
+| 5|  The risk of heart disease increases with Cholesterol.|
+| 6|  Blood sugar may affect heart disease risk.|
+| 7|  some factors may affect heart disease risk in men more than women.|
+| 8|  People with heart disease are often ASY (asymptomatic).|
+
 
 

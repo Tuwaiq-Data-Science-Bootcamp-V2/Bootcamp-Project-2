@@ -1,28 +1,24 @@
-# Data Preprocessing and Analysis 📊
 
-## Based on what you’ve learned until now, use NumPy, pandas, and matplotlib to create a project of your choosing. This project must at least satisfy the following minimum requirements:
+# STC Jawwy TV
+<hr>
 
-- Choose a public dataset that needs to clean and preprocess.
-- EDA
-    - Apply the essential EDA steps: head, shape, info, describe, missing values
-    - Apply the additional EDA steps based on your dataset needs.
-- Data Visualization
-    - Drive meaningful insights (at least 8 different charts, 5 of them are unique).
-    - Draw a subplot using the previous charts.
-    - Apply chart format include:
-      - Choose a specific style for your charts.
-      - Use title, x and y labels, font size, figure size, legends.
-- Use pandas profiling.
-- Report your final conclusion and findings in one page (readme markdown file).
-    - Team members and the role of each one.
-    - Introduction (problem, objectives)
-    - Dataset Overview and Source.
-    - Describe the final eight insights.
-    
-- The Final presentation will be on Sunday (10 min for each group).
-- Due Date: Sat, 21 Jan, 12:00 am.
+### Lama: 
 
-### Final Deliverables:
-- Notebook file(.ipynb).
-- Dataset file.
-- README.md file.
+  #### I Made The Following Contributions to the project: 
+
+- Grouped the data by year and created a new column 'Year' in the dataframe to store the year information.
+
+- Grouped the data by year and type, and created a table showing the total duration in seconds for each combination of year and type. This table was then unstacked to make it more readable. The columns were also renamed to 'MOVIES' and 'TV SHOWS' for better understanding.
+
+- Grouped the data by the year and genre, and created a line chart showing the number of views for the top 5 genres by year. The data was also unstacked to make it more readable and the top 5 genres were chosen to focus on.
+
+- Calculated the average duration of episodes for each genre in minutes, and created a heatmap to visualize the data. This heatmap shows the average duration of episodes for each genre in minutes, making it easy to compare the different genres.
+
+### Khalid:
+- Converted the original data to CSV form.
+- Imported needed Libraries.
+- Read the data and added a function to remove spaces.
+- Found duplicated data and removed them.
+- Removed unneeded columns and renamed the remaining.
+- Convert dates to python standard format.
+- Wrote codes to answer two questions and describe them in charts.

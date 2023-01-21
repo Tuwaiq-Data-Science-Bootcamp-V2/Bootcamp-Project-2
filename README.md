@@ -5,7 +5,7 @@ This project will focus on heart disease.
 | Team members   | Role |
 | ----------- | ----------- |
 | Razan Alyahya |Clean and preprocess for dataset, EDA, Ploting 5 chart and  write readme markdown file. |
-| Faris Alahmadi | Data frame profiling, Ploting styles, Cottelation matrix and ploting 5 charts.|
+| Faris Alahmadi | Data frame profiling, Ploting styles, Correlation matrix and ploting 5 charts.|
 | Raghad Alsalamah | Ploting 4 charts and write readme markdown file. |
 
 

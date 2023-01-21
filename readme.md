@@ -9,7 +9,7 @@ is made simpler by these statistics.
 
 
 ### Overview Dataset
-<img src="imageDataSet.png" width="400" height="400">
+<img src="imageDataSet.png" width="700" height="400">
 
 
 This ***dataset*** includes general information for the neighborhoods of Riyadh, Saudi Arabia. \
@@ -42,11 +42,11 @@ Average_Income|Number|Nine Tenths
 [Dataset](https://github.com/alioh/Saudi-Districts-Dataset)
 
 ### Charts
-<img src="histChart.png" width="400" height="400">
+<img src="histChart.png" width="700" height="400">
 
 **Histogram Chart :** This is Chart display frequency of Average Income.
 
-<img src="BarChart.png" width="400" height="400">
+<img src="BarChart.png" width="700" height="400">
 
 **Bar Chart :** A graph showing the statistics of Saudis and non-Saudis, males and females, in six neighborhoods in Riyadh.
 

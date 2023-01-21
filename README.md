@@ -1,28 +1,67 @@
-# Data Preprocessing and Analysis 📊
+ # <img width="100" height="100" src="dataset-cover.png">  Heart Disease  
+This project will focus on heart disease.      
 
-## Based on what you’ve learned until now, use NumPy, pandas, and matplotlib to create a project of your choosing. This project must at least satisfy the following minimum requirements:
+## Team members
+| Team members   | Role |
+| ----------- | ----------- |
+| Razan Alyahya |Clean and preprocess for dataset, EDA, Ploting 5 chart and  write readme markdown file. |
+| Faris Alahmadi | Data frame profiling, Ploting styles, Correlation matrix and ploting 5 charts.|
+| Raghad Alsalamah | Ploting 4 charts and write readme markdown file. |
 
-- Choose a public dataset that needs to clean and preprocess.
-- EDA
-    - Apply the essential EDA steps: head, shape, info, describe, missing values
-    - Apply the additional EDA steps based on your dataset needs.
-- Data Visualization
-    - Drive meaningful insights (at least 8 different charts, 5 of them are unique).
-    - Draw a subplot using the previous charts.
-    - Apply chart format include:
-      - Choose a specific style for your charts.
-      - Use title, x and y labels, font size, figure size, legends.
-- Use pandas profiling.
-- Report your final conclusion and findings in one page (readme markdown file).
-    - Team members and the role of each one.
-    - Introduction (problem, objectives)
-    - Dataset Overview and Source.
-    - Describe the final eight insights.
-    
-- The Final presentation will be on Sunday (10 min for each group).
-- Due Date: Sat, 21 Jan, 12:00 am.
 
-### Final Deliverables:
-- Notebook file(.ipynb).
-- Dataset file.
-- README.md file.
+## What is heart disease?
+[Heart disease](https://medlineplus.gov/heartdiseases.html#:~:text=What%20is%20heart%20disease%3F,many%20types%20of%20heart%20disease.) is a general term that includes many types of heart problems. It's also called cardiovascular disease, which means heart and blood vessel disease.
+
+Heart disease is one of the **biggest causes of morbidity and mortality** among the population of the world. 
+
+According to a news article, heart disease proves to be the leading cause of death for both women and men. [The article states the following:](https://midlandtexas.gov/621/Cardiovascular-Diseases#:~:text=Coronary%20heart%20disease%20(CHD)%20is,already%20had%20a%20heart%20attack.)
+- Heart disease is the leading cause of death for both men and women. More than half of the deaths due to heart disease in 2009 were in men.
+- Coronary Heart Disease(CHD) is the most common type of heart disease, killing over 370,000 people annually.
+
+
+This makes heart disease a major concern to be dealt with. For that, We have to know the factors that can make us more likely to develop heart disease.
+
+
+We will be using some common Python libraries, such as **pandas, NumPy, and matplotlib**.
+
+
+## Dataset:
+The dataset is available through the [data world.](https://data.world/informatics-edu/heart-disease-prediction)
+
+This dataset contains patient data concerning heart disease diagnosis that was collected at several locations around the world. There are 270 patients and 14 attributes, including age, sex, resting blood pressure, cholesterol levels, echocardiogram data, exercise habits, and many others.
+
+
+## Dataset Description:
+
+| Attribute   | Description |
+| ----------- | ----------- |
+| Age | Age of a patient |
+| Sex | Gender of the patient [Male, Female] |
+| Chest_pain_type | chest pain type [TA: Typical Angina, ATA: Atypical Angina, NAP: Non-Anginal Pain, ASY: Asymptomatic]|
+| Blood_pressure | Blood pressure in Hg (Normal blood pressure - 120/80 Hg) |
+| Cholesterol | Serum cholestrol level in blood (Normal cholesterol level below for adults 200mg/dL)|
+| Fasting_blood_sugar_over_120 | Fasting Blood Sugar (Normal less than 100mg/dL for non diabetes for diabetes 100-125mg/dL) |
+| EKG_results | resting electrocardiogram results [0: Normal, 1: having ST-T wave abnormality (T wave inversions and/or ST elevation or depression of > 0.05 mV), 2: showing probable or definite left ventricular hypertrophy by Estes' criteria]|
+| Max_heart_rate_achieved | maximum heart rate achieved [Numeric value between 60 and 202] |
+| Exercise_angina | exercise-induced angina [1: Yes, 0: No]|
+| ST_depression | ST [Numeric value measured in depression] |
+| Slope_of_ST | the slope of the peak exercise ST segment [1: upsloping, 2: flat, 3: downsloping]|
+| Number_of_vessels_fluro |  number of major vessels (0-3) colored by flourosopy |
+| Thallium | 3 = normal; 6 = fixed defect; 7 = reversable defect|
+| Heart_disease | output class [No heart Disease,Heart Disease] |
+
+## Final eight insights
+There are many different factors that can make you more likely to develop heart disease. 
+|    | Factors |
+| ----------- | ----------- |
+| 1|  The risk of heart disease increases with age.|
+| 2|  The heart beat rate decrease as the age increase.|
+| 3|  Depression may affect heart disease risk in men and women.|
+| 4|  Blood pressure increases with age, so it may increase the risk of heart disease. |
+| 5|  The risk of heart disease increases with Cholesterol.|
+| 6|  Blood sugar may affect heart disease risk.|
+| 7|  some factors may affect heart disease risk in men more than women.|
+| 8|  People with heart disease are often ASY (asymptomatic).|
+
+
+

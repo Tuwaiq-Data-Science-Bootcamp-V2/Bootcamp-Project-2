@@ -48,7 +48,7 @@ Average_Income|Number|Nine Tenths
 
 <img src="BarChart.png" width="400" height="400">
 
-**Bar Chart :** A graph showing the statistics of Saudis and non-Saudis, males and females, in five neighborhoods in Riyadh.
+**Bar Chart :** A graph showing the statistics of Saudis and non-Saudis, males and females, in six neighborhoods in Riyadh.
 
 
 ###  Team members
